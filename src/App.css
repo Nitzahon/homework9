@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+.reactReg{
+  padding: 3rem;
+}
+.reactPost{
+  text-align: center;
+  padding: 5px;
+}
