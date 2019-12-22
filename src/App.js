@@ -1,8 +1,9 @@
 import React from "react";
 // import logo from "./logo.svg";
 import "./App.css";
-import Post from "./components/Post.js";
+//import Post from "./components/Post.js";
 import Register from "./components/Register.js";
+import AddPost from "./components/AddPost.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
 
 
       <body>
-      <Register />
+      <AddPost />
         <Post list={list[0]} />
         <Post list={list[1]} />
         <Post list={list[2]} />
